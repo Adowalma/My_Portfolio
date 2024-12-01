@@ -39,24 +39,24 @@ export const listSkills = [
 
 export const listProjects = [
   {
-    name:'Sistema de alarme Monitorado + E-commerce',
-    des:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.',
-    mission:'Back-end Developer, hardware and software connection, Esp-cam Arduino integration', 
-    language:'HTML5, CSS3, Laravel',
+    name:'Alarme Monitorado + E-commerce',
+    des:'Solução integrada de monitoramento em tempo real e gestão de vendas online, com ESP-CAM e Arduino para captura de imagens e relatórios detalhados.',
+    mission:'Gestão eficiente de vendas, Monitoramento em tempo real', 
+    language:'C++ (ESP-CAM e Arduino), Laravel',
     images:Project1
   },
   {
-    name:'Project Real-time chating in website',
-    des:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.',
-    mission:'Back-end Developer, system analysus and design', 
-    language:'HTML5, CSS3, React JS, Laravel',
+    name:'Design Moderno com Tailwind CSS',
+    des:'Um projeto focado em explorar e aplicar boas práticas de UI/UX, responsividade e desenvolvimento semântico utilizando Tailwind CSS.',
+    mission:'Aprimoramento de UI/UX, Uso semântico do HTML, Design responsivo', 
+    language:'HTML5, CSS3, Tailwind',
     images:Project2
   },
   {
-    name:'Project Real-time chating in website',
-    des:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.',
-    mission:'Back-end Developer, system analysus and design', 
-    language:'HTML5, CSS3, React JS, Laravel',
+    name:'Sistema de Gestão de RH',
+    des:'Plataforma desenvolvida para centralizar e otimizar processos de recursos humanos, trazendo organização e eficiência para empresas.',
+    mission:'Centralização de informações, Automação de processos,Gestão eficiente de equipes ', 
+    language:'HTML5, CSS3, Laravel',
     images:Project3
   },
 ]
