@@ -289,6 +289,10 @@ section{
       & .item{
         margin-top: 50px;
       }
+      & a{
+        text-decoration: none;
+        color: #eee;
+      }
     }
   }
 }
@@ -332,7 +336,7 @@ section{
       }
       & .avatar{
         grid-row-start: 1;
-        /* margin: auto; */
+        /* margin: auto ; */
       }
     }
     &.skills{

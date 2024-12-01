@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import { listSkills } from '../constants'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import CustomHook from './CustomHook';
@@ -12,10 +12,12 @@ const Skills = () => {
   return (
     <section className="skills" ref={refTab}>
       <div className="title" ref={(el) => el && refDivs.current.push(el)}>
-        This is my skills
+        Minha Caixa de Ferramentas
       </div>
       <div className="des" ref={(el) => el && refDivs.current.push(el)}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro temporibus vel animi mollitia, sequi quaerat libero.
+      {/* Com habilidade e prática, utilizo uma variedade de ferramentas e tecnologias para desenvolver projetos que unem funcionalidade e design. Confira algumas das principais áreas de atuação. */}
+      {/* Tecnologias exploradas em projetos e estudos contínuos, aplicadas para criar soluções funcionais e criativas. */}
+      Um conjunto de tecnologias exploradas e aplicadas em projetos, para criar soluções funcionais e criativas.
       </div>
       <div className="list">
         {listSkills.map((skills, key)=>(

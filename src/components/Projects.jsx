@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import { listProjects } from '../constants'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPersonCircleQuestion, faEarthAfrica } from '@fortawesome/free-solid-svg-icons'
@@ -13,10 +13,10 @@ const Projects = () => {
   return (
     <section className="projects" ref={refTab}>
       <div className="title" ref={(el) => el && refDivs.current.push(el)}>
-        This is my Projects
+        Meus projectos
       </div>
       <div className="des" ref={(el) => el && refDivs.current.push(el)}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, placeat ut sit magnam iste eos obcaecati incidunt nostrum, enim unde adipisci molestiae doloribus omnis illo doloremque vero rem ad dolore!
+      Cada projeto é um marco no processo de aprendizado, uma oportunidade de aplicar tecnologias e superar desafios reais, experimentando ideias e consolidando conhecimentos.
       </div>
       <div className="list">
         {

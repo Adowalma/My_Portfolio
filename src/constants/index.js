@@ -7,32 +7,32 @@ export const listNav = (['home', 'skills', 'projects', 'contacts'])
 export const listSkills = [
   {
     name: 'HTML',
-    des:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.',
+    des:'Criação de estruturas sólidas e semânticas para uma web acessível e funcional. Projetos pessoais e colaborativos ajudaram a refinar essa base essencial.',
     icon: faHtml5
   },
   {
     name: 'Css',
-    des:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.',
+    des:'Desenvolvimento de designs que combinam estética e responsividade, garantindo uma experiência fluida em qualquer dispositivo.',
     icon: faCss3
   },
   {
     name: 'Javascript',
-    des:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.',
+    des:'Adição de dinamismo e funcionalidade, explorada em projetos que buscam melhorar a interação do usuário. Uma linguagem que proporciona aprendizado constante e novas possibilidades.',
     icon: faJs
   },
   {
     name: 'ReactJs',
-    des:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.',
+    des:'Ferramenta confiável para criar interfaces modernas e escaláveis, amplamente utilizada em projetos experimentais e práticos',
     icon: faReact
   },
   {
     name: 'VueJS',
-    des:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.',
+    des:'Framework explorado para aplicações ágeis e eficientes, usado em projetos que reforçaram conceitos de organização e escalabilidade.',
     icon: faVuejs
   },
   {
     name: 'Laravel',
-    des:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.',
+    des:'Base para construção de sistemas robustos e organizados, com estudos voltados ao back-end, aplicando lógicas confiáveis e flexíveis.',
     icon: faLaravel
   },
 ]

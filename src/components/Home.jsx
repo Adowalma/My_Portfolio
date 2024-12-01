@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import CustomHook from './CustomHook';
 
 const Home = () => {
@@ -13,18 +13,20 @@ const Home = () => {
           Olá, sou a <span>ADOWALMA</span>
         </div>
         <div className='des'>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus voluptates fugiat tenetur ducimus sapiente odit deserunt magnam accusantium saepe. Veniam vitae explicabo aut itaque dicta velit quod voluptates iusto suscipit.
+        Combinando design moderno e código eficiente, podemos transformar ideias em experiências digitais impactantes. 
+        Este portfólio é um convite para explorar minhas habilidades e uma jornada constante de aprendizado.
+         Descubra como posso ajudar a impulsionar seus projetos.
         </div>
-        <a href="/CV_AdowalmaAdao.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+        <a href="/CV_AdowalmaAdao.pdf" target="_blank" rel="noopener noreferrer">Baixar CV</a>
       </div>
       <div className="avatar">
         <div className="card">
           <img src="/avatar-removebg.png" alt="" />
           <div className="info">
-            <div>Developer</div>
-            <div>Angolan</div>
-            <div>27/06</div>
-            <div>Female</div>
+            <div>Desenvolvedora</div>
+            <div>Angolana</div>
+            <div>__</div>
+            <div>Feminina</div>
           </div>
         </div>
         </div> 

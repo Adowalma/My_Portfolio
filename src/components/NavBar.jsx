@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { listNav } from '../constants'
 import { connect, useDispatch } from 'react-redux';
 import {changeTabActive} from '../redux/action';
@@ -19,7 +19,7 @@ const NavBar = ({activeTab}) => {
   return (
     <header>
       <div className='logo'>
-        <img src='/logo192.png' alt=''/>
+        <img src='/letter-a-logo.png' alt=''/>
       </div>
       <nav className={statusNav}>
         {
