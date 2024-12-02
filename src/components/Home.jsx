@@ -17,7 +17,7 @@ const Home = () => {
         Combinando design moderno e código eficiente, podemos transformar ideias em experiências digitais impactantes.
          {/* Descubra como posso ajudar a impulsionar seus projetos. */}
         </div>
-        <a href="/CV_AdowalmaAdao.pdf" target="_blank" rel="noopener noreferrer">Baixar CV</a>
+        <a href="/CV_AdowalmaAdao.pdf" target="_blank" rel="noopener noreferrer">Baixar Currículo</a>
       </div>
       <div className="avatar">
         <div className="card">
