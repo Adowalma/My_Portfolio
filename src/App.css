@@ -81,7 +81,7 @@ section{
     & .content{
       font-family: 'MuseoModerno', system-ui;
       & .name{
-        font-size: 7em;
+        font-size: 7vw;
         font-weight: bold;
         line-height: 1em;
         & span{
@@ -111,6 +111,9 @@ section{
         margin-top: 30px;
         display: block;
         width: max-content;
+        &:hover{
+          background-color:#e945e409 ;
+        }
       }
     }
     & .avatar{
@@ -130,7 +133,7 @@ section{
           object-fit: cover;
           object-position: top;
           clip-path: polygon(
-            81% 0, 1000% 18%, 100% 100%, 0 100%, 0 0
+            81% 0, 100% 18%, 100% 100%, 0 100%, 0 0
           );
         }
         & .info{
@@ -164,7 +167,7 @@ section{
     & .list{
       margin-top: 50px;
       display: grid;
-      grid-template-columns: repeat(auto-fill, 300px);
+      grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
       justify-content: space-between;
       gap: 3vw;
       position: relative;
@@ -319,6 +322,16 @@ section{
   display: none;
 }
 
+@media screen and (max-width:1200px){
+  section{
+     &.home {
+      & .avatar{
+    text-align: center;
+  }
+  }
+}
+  
+}
 @media screen and (max-width: 767px){
   section{
     padding: 20px;
@@ -343,11 +356,14 @@ section{
       & .list{
         grid-template-columns: 1fr;
       }
-      /* & .title{
-        font-size: 1.2em;
-      } */
+      & .title{
+        font-size: 2em;
+      }
     }
     &.projects{
+      & .title{
+        font-size: 2em;
+      }
       & .list{
         & .item{
           grid-template-columns: 1fr;
@@ -364,6 +380,11 @@ section{
             }
           }
         }
+      }
+    }
+    &.contacts{
+      & .title{
+        font-size: 2em;
       }
     }
   }
@@ -389,3 +410,17 @@ section{
     }
   }
 }
+
+/* Scrollbar para navegadores modernos */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra */
+}
+
+
+
+::-webkit-scrollbar-thumb {
+  background: #3d3d3e75; /* Gradiente */
+  border-radius: 10px; /* Bordas arredondadas */
+  border: 2px solid #010824; /* Espaço ao redor do polegar */
+}
+

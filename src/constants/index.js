@@ -2,7 +2,25 @@ import { faReact, faHtml5, faCss3, faJs, faVuejs, faLaravel } from "@fortawesome
 import { Project1, Project2, Project3 } from "../assets/images"
 
 
-export const listNav = (['home', 'skills', 'projects', 'contacts'])
+// export const listNav = (['home', 'skills', 'projects', 'contacts'])
+export const listNav = [
+  {
+    value: 'home',
+    name: 'Início' 
+  },
+  {
+    value: 'skills',
+    name: 'Habilidades' 
+  },
+  {
+    value: 'projects',
+    name: 'Projectos' 
+  },
+  {
+    value: 'contacts',
+    name: 'Contactos' 
+  },
+]
 
 export const listSkills = [
   {

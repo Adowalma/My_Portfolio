@@ -13,9 +13,9 @@ const Home = () => {
           Olá, sou a <span>ADOWALMA</span>
         </div>
         <div className='des'>
-        Este portfólio é um convite para explorar minhas habilidades tecnológicas e uma jornada constante de aprendizado.
-        Combinando design moderno e código eficiente, podemos transformar ideias em experiências digitais impactantes.
-         {/* Descubra como posso ajudar a impulsionar seus projetos. */}
+        Este portfólio é um convite para explorar minhas habilidades tecnológicas e uma jornada constante de aprendizado. Descubra como posso ajudar a impulsionar seus projetos.
+        {/* Combinando design moderno e código eficiente, podemos transformar ideias em experiências digitais impactantes. */}
+         
         </div>
         <a href="/CV_AdowalmaAdao.pdf" target="_blank" rel="noopener noreferrer">Baixar Currículo</a>
       </div>

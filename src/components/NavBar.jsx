@@ -23,8 +23,8 @@ const NavBar = ({activeTab}) => {
       </div>
       <nav className={statusNav}>
         {
-          listNav.map((value,key)=>(
-            <span key={key} className={activeTab === value? 'active' : ''} onClick={() => changeTab(value)}>{value}</span>
+          listNav.map((list,key)=>(
+            <span key={key} className={activeTab === list.value? 'active' : ''} onClick={() => changeTab(list.value)}>{list.name}</span>
           ))
         }
       </nav>
