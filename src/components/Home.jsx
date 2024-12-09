@@ -17,7 +17,7 @@ const Home = () => {
         {/* Combinando design moderno e código eficiente, podemos transformar ideias em experiências digitais impactantes. */}
          
         </div>
-        <a href="/CV_AdowalmaAdao.pdf" target="_blank" rel="noopener noreferrer">Baixar Currículo</a>
+        <a href="https://www.canva.com/design/DAGXG_r2PIM/t5Zjq0jr-q8d17a3tdbJuw/view?utm_content=DAGXG_r2PIM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h72eac3e414" target="_blank" rel="noopener noreferrer">Ver Currículo</a>
       </div>
       <div className="avatar">
         <div className="card">
