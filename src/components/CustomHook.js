@@ -29,7 +29,7 @@ const CustomHook = (refTab = null, refDivs = null) => {
       window.addEventListener('scroll', handleScroll);
     }
 
-  }, [activeTab])
+  }, [activeTab, thisDivs, thisTab])
 }
 
 export default CustomHook
