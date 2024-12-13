@@ -19,7 +19,7 @@ const Contacts = () => {
         {listContacts.map((contact, key) => (
           <div className="item" key={key}>
             <h3>{contact.title}</h3>
-            <a href={contact.value}>{contact.value}</a>
+            <a href={contact.value}>{contact.label}</a>
           </div>
         ))}
       </div>

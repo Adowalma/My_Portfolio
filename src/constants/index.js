@@ -83,16 +83,19 @@ export const listContacts = [
   {
     icon: '',
     title: 'Email', 
-    value: 'adowalmaadao@gmailcom'
+    value: 'mailto:adowalmaadao@gmailcom',
+    label: 'adowalmaadao@gmailcom'
   },
   {
     icon: '',
     title: 'Linkedin', 
-    value: 'https://www.linkedin.com/in/adowalma-adao/'
+    value: 'https://www.linkedin.com/in/adowalma-adao/',
+    label: 'https://www.linkedin.com/in/adowalma-adao/'
   },
   {
     icon: '',
     title: 'GitHub', 
-    value: 'https://github.com/Adowalma'
+    value: 'https://github.com/Adowalma',
+    label: 'https://github.com/Adowalma'
   },
 ]
