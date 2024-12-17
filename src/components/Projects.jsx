@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import { listProjects } from '../constants'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPersonCircleQuestion, faEarthAfrica } from '@fortawesome/free-solid-svg-icons'
@@ -9,6 +9,26 @@ const Projects = () => {
   const refTab = useRef();
   const refDivs = useRef([]);
   CustomHook(refTab, refDivs); 
+
+
+  const [tooltip, setTooltip] = useState({ visible: false, x: 0, y: 0, text: '' });
+
+  const handleMouseMove = (e, text) => {
+    setTooltip({
+      visible: true,
+      x: e.pageX,
+      y: e.pageY,
+      text,
+    });
+  };
+
+  const handleMouseLeave = () => {
+    setTooltip({ visible: false, x: 0, y: 0, text: '' });
+  };
+
+  const handleClick = (link) => {
+    window.open(link, '_blank'); // Abre o link em uma nova aba
+  };
   
   return (
     <section className="projects" ref={refTab}>
@@ -22,7 +42,9 @@ const Projects = () => {
         {
           listProjects.map((project, key)=>(
             <div className="item" key={key}>
-              <div className="images" ref={(el) => el && refDivs.current.push(el)}>
+              <div className="images" ref={(el) => el && refDivs.current.push(el)} onMouseMove={(e) => handleMouseMove(e, 'Clique para ver projeto')}
+              onMouseLeave={handleMouseLeave}
+              onClick={() => handleClick(project.link)}>
                 <img src={project.images} alt="" />
               </div>
               <div className="content" ref={(el) => el && refDivs.current.push(el)}>
@@ -56,6 +78,14 @@ const Projects = () => {
           )
         }
       </div>
+      {tooltip.visible && (
+        <div
+          className="tooltip"
+          style={{ top: tooltip.y + 10, left: tooltip.x + 10 }}
+        >
+          {tooltip.text}
+        </div>
+      )}
     </section>
   )
 }

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root{
+  --speed: 0.65s;
+}
+
 body {
   margin: 0;
   font-family: Poppins;
@@ -232,6 +236,17 @@ section{
           text-align: center;
           border-radius: 20px;
           overflow: hidden; /* Para cortar a parte da imagem que passa dos limites da column  */
+
+          position:relative;
+          cursor: pointer;
+          -webkit-transition: all var(--speed) ease;
+          transition: all var(--speed) ease;
+
+          &:hover, &:active{
+            -webkit-transform: scale(1.04,1.04);
+            transform:scale(1.04, 1.04)
+          }
+          
           & img{
             height: 400px;
             border-radius: 10px;
@@ -424,3 +439,20 @@ section{
   border: 2px solid #010824; /* Espaço ao redor do polegar */
 }
 
+
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block; /* Permite que o wrapper ajuste ao conteúdo */
+  cursor: pointer; /* Indica que é clicável */
+}
+
+.tooltip {
+  position: absolute; /* Necessário para posicionar o tooltip */
+  background: rgba(0, 0, 0, 0.8);
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  pointer-events: none; /* Garante que o mouse não bloqueie o hover */
+  z-index: 100; /* Sobrepõe elementos vizinhos */
+}
